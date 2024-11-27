@@ -72,7 +72,7 @@
 }
 
 .cover-background {
-  background-image: url(/images/cover.jpg);
+  background-image: url(../images/cover.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -203,7 +203,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-image: url(/images/card-lot-01.jpg);
+  background-image: url(../images/card-lot-01.jpg);
   background-position: center;
   background-size: cover;
   background-color: rgb(0 0 0/0.6);
@@ -219,7 +219,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-image: url(/images/card-lot-02.jpg);
+  background-image: url(../images/card-lot-02.jpg);
   background-position: center;
   background-size: cover;
   margin-bottom: 28px;
@@ -235,7 +235,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-image: url(/images/card-lot-03.jpg);
+  background-image: url(../images/card-lot-03.jpg);
   background-position: center;
   background-size: cover;
   margin-bottom: 30px;

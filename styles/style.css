@@ -3,7 +3,7 @@
   /*секция для элементов header*/
   margin: auto;
   /*border: 1px transparent solid;*/
-  padding: 92px 24px 96px;
+  padding: 95px 24px 96px;
   /*границы заданы для видимости секций и элементов*/
 }
 
@@ -13,8 +13,8 @@
   flex-direction: row;
   flex-wrap: nowrap;
   align-items: center;
-  width: 1052px;
-  height: 105px;
+  max-width: 1052px;
+  max-height: 105px;
   border: 1px transparent solid;
 }
 
@@ -94,7 +94,7 @@
   align-items: center;
   flex-shrink: 0;
   border: 1px transparent solid;
-  padding: 165px 50px 51px;
+  padding: 165px 50px 53px;
 }
 
 .intro_size {
@@ -103,6 +103,7 @@
   border: 1px solid transparent;
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 .intro_name_one {
@@ -110,11 +111,11 @@
   font-size: 100px;
   text-transform: uppercase;
   color: white;
-  letter-spacing: 25px;
+  letter-spacing: 0.3em;
 }
 
 .letter_margin_one {
-  margin-left: 40px;
+  margin-left: 30px;
 }
 
 .intro_name_two {
@@ -122,12 +123,12 @@
   font-size: 100px;
   text-transform: uppercase;
   color: white;
-  margin-top: 5px;
-  letter-spacing: 28px;
+  margin-top: 8px;
+  letter-spacing: 0.3em;
 }
 
 .letter_margin_two {
-  margin-left: 35px;
+  margin-left: 30px;
 }
 
 .middle_word {
@@ -139,16 +140,17 @@
   font-size: 100px;
   text-transform: uppercase;
   color: white;
-  letter-spacing: 25px;
+  letter-spacing: 0.3em;
 }
 
 .letter_margin_three {
-  margin-right: 35px;
+  margin-right: 30px;
+  margin-left: 4px;
 }
 
 .bottom_word {
-  margin-left: 587px;
-  margin-top: 5px;
+  margin-left: 578px;
+  margin-top: 4px;
 }
 
 .slogan {
@@ -179,7 +181,7 @@
 
 .info_size {
   /*секция для элементов info*/
-  padding: 181px 24px 146px;
+  padding: 177px 24px 146px;
   border: 1px transparent solid;
 }
 

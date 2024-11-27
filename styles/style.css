@@ -72,6 +72,10 @@
   /*длина подчеркивания*/
 }
 
+main {
+  margin-bottom: 0px;
+}
+
 .cover-background {
   background-image: url(/images/cover.jpg);
   background-repeat: no-repeat;
@@ -181,7 +185,7 @@
 
 .info_size {
   /*секция для элементов info*/
-  padding: 177px 24px 146px;
+  padding: 176px 23px 146px;
   border: 1px transparent solid;
 }
 
@@ -189,7 +193,7 @@
   font-size: 40px;
   font-weight: 900;
   margin-left: 40px;
-  margin-bottom: 24px;
+  margin-bottom: 26px;
   text-transform: uppercase;
 }
 
@@ -320,7 +324,7 @@
   width: 1100px;
   height: 88px;
   border: 1px transparent solid;
-  padding: 35px 50px 0px;
+  padding: 34px 50px 0px;
   margin-bottom: 88px;
 }
 

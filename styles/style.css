@@ -3,7 +3,7 @@
   /*секция для элементов header*/
   margin: auto;
   /*border: 1px transparent solid;*/
-  padding: 95px 24px 96px;
+  padding: 92px 24px 96px;
   /*границы заданы для видимости секций и элементов*/
 }
 
@@ -12,7 +12,7 @@
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  align-items: center;
+  /*align-items: center;*/
   max-width: 1052px;
   max-height: 105px;
   border: 1px transparent solid;
@@ -30,7 +30,7 @@
   gap: 33px;
   margin-left: 26px;
   width: 392px;
-  height: 21px;
+  height: 18px;
   list-style-type: circle;
   font-size: 18px;
   text-decoration: none;
@@ -58,22 +58,17 @@
 .contacts {
   font-size: 18px;
   width: 240px;
-  height: 98px;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-evenly;
   font-style: normal;
-  /*border: 1px transparent solid;*/
+  border: 1px transparent solid;
 }
 
 .contacts_link {
   text-decoration: underline;
   text-underline-offset: 4px;
   /*длина подчеркивания*/
-}
-
-main {
-  margin-bottom: 0px;
 }
 
 .cover-background {
@@ -98,13 +93,13 @@ main {
   align-items: center;
   flex-shrink: 0;
   border: 1px transparent solid;
-  padding: 165px 50px 53px;
+  padding: 165px 50px 51px;
 }
 
 .intro_size {
   width: 1000px;
-  height: 355px;
-  border: 1px solid transparent;
+  /*height: 355px;*/
+  /*border: 1px solid transparent;*/
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -154,12 +149,10 @@ main {
 
 .bottom_word {
   margin-left: 578px;
-  margin-top: 4px;
+  margin-top: 2px;
 }
 
 .slogan {
-  width: 637px;
-  height: 28px;
   color: white;
   text-transform: uppercase;
   font-size: 22px;
@@ -185,7 +178,7 @@ main {
 
 .info_size {
   /*секция для элементов info*/
-  padding: 176px 23px 146px;
+  padding: 179px 23px 146px;
   border: 1px transparent solid;
 }
 
@@ -357,4 +350,15 @@ main {
 .icon {
   width: 48px;
   height: 48px;
+}
+
+.contacts_footer {
+  font-size: 18px;
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 4px;
+  font-style: normal;
+  border: 1px transparent solid;
 }

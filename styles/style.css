@@ -79,7 +79,7 @@
   justify-content: space-between;
   align-content: space-between;
   align-items: center;
-  padding: 166px 50px 51px;
+  padding: 163px 50px 54px;
 }
 
 .intro {
@@ -94,18 +94,18 @@
   color: white;
 }
 
-.intro_name_one {
+.intro_text_left {
   display: block;
   text-align: start;
 }
 
-.intro_name_two {
+.intro_text_center {
   display: block;
   text-align: center;
   margin-top: 8px;
 }
 
-.intro_name_three {
+.intro_text_right {
   display: block;
   text-align: right;
 }
@@ -146,7 +146,7 @@
 }
 
 .info_size {
-  padding: 181px 23px 146px;
+  padding: 177px 23px 146px;
 }
 
 .info_name {
@@ -161,6 +161,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: 25px;
+  margin-bottom: 30px;
 }
 
 .link_card {
@@ -174,32 +175,21 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin-bottom: 30px;
-}
-.card_backround_anderson {
-  background-image: url(../images/card-lot-01.jpg);
   background-position: center;
   background-size: cover;
   background-color: rgb(0 0 0/0.6);
   background-blend-mode: overlay;
+}
+.card_backround_anderson {
+  background-image: url(../images/card-lot-01.jpg);
 }
 
 .card_background_joyce {
   background-image: url(../images/card-lot-02.jpg);
-  background-position: center;
-  background-size: cover;
-  margin-bottom: 28px;
-  background-color: rgb(0 0 0/0.6);
-  background-blend-mode: overlay;
 }
 
 .card_background_kandinsky {
   background-image: url(../images/card-lot-03.jpg);
-  background-position: center;
-  background-size: cover;
-  margin-bottom: 30px;
-  background-color: rgb(0 0 0/0.6);
-  background-blend-mode: overlay;
 }
 
 .card_name {
@@ -225,11 +215,9 @@
 }
 
 .about_size {
-  /*секция для элементов about*/
   display: flex;
   width: 1100px;
-  min-height: 741px;
-  padding: 37px 24px 145px;
+  padding: 136px 24px 145px;
 }
 
 .logo_about {
@@ -245,6 +233,7 @@
   display: grid;
   place-content: center;
   margin-left: 47px;
+  margin-top: -99px;
 }
 
 .about_heading {
